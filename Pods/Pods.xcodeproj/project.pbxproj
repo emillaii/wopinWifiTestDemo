@@ -1,0 +1,1223 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		08F37DD446256492166F6CFE464CA297 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94BE381B487EC6EA4885BFFCCAAC3428 /* Foundation.framework */; };
+		16DC6826306FE919355D4004243F9993 /* SwiftyTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 989182A3A49BB2D1D31078904DF69D4D /* SwiftyTimer.swift */; };
+		263AAF6830E621852D8362FD1BA7CEA6 /* QRCodeReaderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2F5F17CB8B7E8B9733A69D1395BD19D /* QRCodeReaderViewController.swift */; };
+		2991D1E6D4AF8123D6772795D1416A01 /* CocoaMQTTMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F43BA6BA1C4FE2C778E7151876D5DF70 /* CocoaMQTTMessage.swift */; };
+		34E4A8322640782EF2D10CDC75305D52 /* CocoaMQTT-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 45490579C1B8A33D6A42981B4248F536 /* CocoaMQTT-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3D9993A485E991911C0A47153809CD6D /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D9D22902FA0F0F77C8B442ED034C863 /* AVFoundation.framework */; };
+		3F104C185043C731D38BD3838470B489 /* CocoaMQTTFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C62CB2753C482B7FE81CF140976460A /* CocoaMQTTFrame.swift */; };
+		43A8F1EAE123AA72148693C7516E27D8 /* QRCodeReaderViewControllerBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26721979D40A4A019D43FABEDD8F4B86 /* QRCodeReaderViewControllerBuilder.swift */; };
+		4707A4453045B0E3B75485B9E8218A38 /* QRCodeReaderViewContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C3F6993A34DF1E3750E87A13016EAA7 /* QRCodeReaderViewContainer.swift */; };
+		47E3A1B541E8A07B82C413A6B5840CB6 /* SwiftyTimer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA413E58C7370197FE9D9A33A9B2DFE6 /* SwiftyTimer.framework */; };
+		4924E2BE29AD8CB7139664FF22D4C0AC /* QRCodeReaderViewControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 220B3AFB9ED48E27CF7D08B1B329581A /* QRCodeReaderViewControllerDelegate.swift */; };
+		494C00019BB89ADA7A42765CB2118F73 /* QRCodeReaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FCE9C80D47EEC2E6787E9B7FC5ED49E /* QRCodeReaderView.swift */; };
+		5EC035DECB1322AD89F23F536DED85FA /* QRCodeReader.swift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F048D6FE7985748878225544F17E6CE /* QRCodeReader.swift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		60544D67483EFB0F7C8D72E42DA60B0F /* QRCodeReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60BEBA0A0FC83F894A2CEC55CB6439A8 /* QRCodeReader.swift */; };
+		6C61C5F4CE62D3CBBB8F50C6F8610E0F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94BE381B487EC6EA4885BFFCCAAC3428 /* Foundation.framework */; };
+		7602D5F6A6BB8B5B12C78AD5A109B20E /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B715EC1E2BA2A1A5DD1C4F616EC91EAC /* Security.framework */; };
+		77DEDFF5D140B7D7BC6054B64ED23A43 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94BE381B487EC6EA4885BFFCCAAC3428 /* Foundation.framework */; };
+		7A55EE7F96CEDF347D913ECE94F65329 /* SwitchCameraButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 896ADAD4ECA48CBE444B717A2005E1B8 /* SwitchCameraButton.swift */; };
+		7AFFF9FE86FFB55051B35B4D05C96DAC /* ToggleTorchButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E427C39ADC4BDBB222DBEA7E2559DD72 /* ToggleTorchButton.swift */; };
+		7E4F0161B4D135DA3A0763619A56C2F5 /* CocoaAsyncSocket-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EDED646A56CAA1BC7E75201C3EFBC8A8 /* CocoaAsyncSocket-dummy.m */; };
+		8027C16A4F9925949E9607DB3ED1AAF2 /* CocoaAsyncSocket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD384083B6D27112E6A83A095CBBCE59 /* CocoaAsyncSocket.framework */; };
+		8480493AEC1C7AF1B5C0E0BF2F70FB44 /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 75581ED31476EEBC44E20F0C7F667DAA /* GCDAsyncSocket.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		943BF07A10E71980CAC8DE757D03B2F4 /* CocoaMQTT.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345E18372AFD94CCA604155A35F98F39 /* CocoaMQTT.swift */; };
+		99C449D316FDF195C1D3E5EA5FA25F27 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94BE381B487EC6EA4885BFFCCAAC3428 /* Foundation.framework */; };
+		A882891E5A89CADF96C2CA79606409CA /* GCDAsyncSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = AE792F7FC7E9594D7A1CC6F5C34F9B6C /* GCDAsyncSocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AC7DC2A21843CD99040DCD79FF3BE91B /* GCDAsyncUdpSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = D5D225489ABFAB4948892EAA775BE7BF /* GCDAsyncUdpSocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AEE9644DA0EFCF945438E125BA4F0724 /* GCDAsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CE9491C7911ADE4AEBBDDC20D5E83CD /* GCDAsyncUdpSocket.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		B0CFA46CD4AE92F222313BD0946CBBA8 /* CocoaMQTT.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A5A4485388364EE20CFD67A55C510FC /* CocoaMQTT.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B315C716597E5D19728AB6926F7BBE51 /* Pods-WopinWifiTest-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AEA0EA93630BD612F6DF55DD767566FC /* Pods-WopinWifiTest-dummy.m */; };
+		C94D640E58AE2D09AD4B03577FC2D240 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94BE381B487EC6EA4885BFFCCAAC3428 /* Foundation.framework */; };
+		CC0C10D188403404F56968BD1DDAAF98 /* QRCodeReader.swift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B67E838B832D382B15C28D22BA38DA0 /* QRCodeReader.swift-dummy.m */; };
+		D088C0E218A224AFA1A97A5495986F5E /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 651B687D6F54349E2DBA8D35C70B1192 /* CFNetwork.framework */; };
+		E4230DB0D114C94B081018C1AC1E9972 /* CocoaAsyncSocket-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5809218A8F3629E63302552854B799F3 /* CocoaAsyncSocket-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E637F8CE61E0F9B8676457258E96A60D /* CocoaMQTT-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FE03ED96A1E249D2186B52D8D4037FA /* CocoaMQTT-dummy.m */; };
+		E7EA5194BD090B497846CFF15A972C2E /* ReaderOverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9DD1C48CBF0360D4E1BB7783D9CE48D /* ReaderOverlayView.swift */; };
+		ED75FD1F53BA23D6B529AC39E57127C7 /* QRCodeReaderResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68F0213C047D00490EF66F290FBF9C33 /* QRCodeReaderResult.swift */; };
+		ED8DA0C8A611B80C357C3660C47EBB95 /* SwiftyTimer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 982610B46100D515C92269DFED3216D9 /* SwiftyTimer-dummy.m */; };
+		F802BD4BD500338F98622FAFDA94C61F /* Pods-WopinWifiTest-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 04EFB512247879E68F585A66137CC8D1 /* Pods-WopinWifiTest-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F9A1FFCD0FFEE6E0C5B6AEF3F53479AA /* SwiftyTimer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C1453166CAC14771A35D205C4BB55CB5 /* SwiftyTimer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		550C297AB676F1272DD1BB1C5178F2BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC0D2D2B4EE7C873431AB3502859CA60;
+			remoteInfo = CocoaAsyncSocket;
+		};
+		65396324C5F570704BFA2161AD13D20C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD756C696AE4837726B4CBFA1D299F2D;
+			remoteInfo = SwiftyTimer;
+		};
+		84729F958F3F9957F9407AD6F92DB223 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD756C696AE4837726B4CBFA1D299F2D;
+			remoteInfo = SwiftyTimer;
+		};
+		8A6F2ED52F8549A40BAE2D7A2EFE07F5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC0D2D2B4EE7C873431AB3502859CA60;
+			remoteInfo = CocoaAsyncSocket;
+		};
+		91069B7FAE5AEA138782D659BB78B29B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2C0A34821E08EC751DD5A58C4EBC10A8;
+			remoteInfo = QRCodeReader.swift;
+		};
+		D3DE4DA42A95324C9F6C58E81DD66A2D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E720309E6F5A1C69F6C3B3230A0C7B1D;
+			remoteInfo = CocoaMQTT;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04EFB512247879E68F585A66137CC8D1 /* Pods-WopinWifiTest-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WopinWifiTest-umbrella.h"; sourceTree = "<group>"; };
+		0C3F6993A34DF1E3750E87A13016EAA7 /* QRCodeReaderViewContainer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QRCodeReaderViewContainer.swift; path = Sources/QRCodeReaderViewContainer.swift; sourceTree = "<group>"; };
+		132A4D212A3498F50F2532DEB03E15D8 /* SwiftyTimer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftyTimer.modulemap; sourceTree = "<group>"; };
+		15BF82C343B30690DCE57EAE0C024A8D /* CocoaMQTT.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CocoaMQTT.framework; path = CocoaMQTT.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B3E0DC89707C382F6BD759F3B25ECD8 /* CocoaAsyncSocket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CocoaAsyncSocket.framework; path = CocoaAsyncSocket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C8DBC290DF8A0AE3FB6D1ED04396E33 /* SwiftyTimer.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyTimer.xcconfig; sourceTree = "<group>"; };
+		220B3AFB9ED48E27CF7D08B1B329581A /* QRCodeReaderViewControllerDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QRCodeReaderViewControllerDelegate.swift; path = Sources/QRCodeReaderViewControllerDelegate.swift; sourceTree = "<group>"; };
+		26721979D40A4A019D43FABEDD8F4B86 /* QRCodeReaderViewControllerBuilder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QRCodeReaderViewControllerBuilder.swift; path = Sources/QRCodeReaderViewControllerBuilder.swift; sourceTree = "<group>"; };
+		2B67E838B832D382B15C28D22BA38DA0 /* QRCodeReader.swift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "QRCodeReader.swift-dummy.m"; sourceTree = "<group>"; };
+		345E18372AFD94CCA604155A35F98F39 /* CocoaMQTT.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CocoaMQTT.swift; path = Source/CocoaMQTT.swift; sourceTree = "<group>"; };
+		34F489846722E65EB6DFBF2ABA8680C9 /* CocoaMQTT-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CocoaMQTT-prefix.pch"; sourceTree = "<group>"; };
+		3D3BE5B52F6F9E1DADC56B21CF83B971 /* Pods-WopinWifiTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WopinWifiTest.release.xcconfig"; sourceTree = "<group>"; };
+		3DB6D91D30E4BBD80D0F3F3099163A45 /* QRCodeReader.swift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QRCodeReader.swift-prefix.pch"; sourceTree = "<group>"; };
+		45490579C1B8A33D6A42981B4248F536 /* CocoaMQTT-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CocoaMQTT-umbrella.h"; sourceTree = "<group>"; };
+		4553D99E2D2E3B66099D96022B4ABB79 /* CocoaAsyncSocket.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CocoaAsyncSocket.xcconfig; sourceTree = "<group>"; };
+		456E14C1A0C4C6C77B2A29C4BEAF98BA /* CocoaAsyncSocket.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CocoaAsyncSocket.modulemap; sourceTree = "<group>"; };
+		4CA828AABF6BF6EF5540A0D67926FA26 /* Pods-WopinWifiTest-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WopinWifiTest-resources.sh"; sourceTree = "<group>"; };
+		4FCE9C80D47EEC2E6787E9B7FC5ED49E /* QRCodeReaderView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QRCodeReaderView.swift; path = Sources/QRCodeReaderView.swift; sourceTree = "<group>"; };
+		57022D74DF8801481A0944A0DDAC3CC3 /* Pods-WopinWifiTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WopinWifiTest.debug.xcconfig"; sourceTree = "<group>"; };
+		5809218A8F3629E63302552854B799F3 /* CocoaAsyncSocket-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CocoaAsyncSocket-umbrella.h"; sourceTree = "<group>"; };
+		5D9D22902FA0F0F77C8B442ED034C863 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/AVFoundation.framework; sourceTree = DEVELOPER_DIR; };
+		60B6B4A753B411699262A07C244D0522 /* Pods-WopinWifiTest-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WopinWifiTest-frameworks.sh"; sourceTree = "<group>"; };
+		60BEBA0A0FC83F894A2CEC55CB6439A8 /* QRCodeReader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QRCodeReader.swift; path = Sources/QRCodeReader.swift; sourceTree = "<group>"; };
+		651B687D6F54349E2DBA8D35C70B1192 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
+		68F0213C047D00490EF66F290FBF9C33 /* QRCodeReaderResult.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QRCodeReaderResult.swift; path = Sources/QRCodeReaderResult.swift; sourceTree = "<group>"; };
+		6FE03ED96A1E249D2186B52D8D4037FA /* CocoaMQTT-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CocoaMQTT-dummy.m"; sourceTree = "<group>"; };
+		7189994BEA7A0D9D4F6DF17F9AD0282D /* Pods_WopinWifiTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WopinWifiTest.framework; path = "Pods-WopinWifiTest.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7381F8F3623F04057E7BC325551D775F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		75581ED31476EEBC44E20F0C7F667DAA /* GCDAsyncSocket.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDAsyncSocket.m; path = Source/GCD/GCDAsyncSocket.m; sourceTree = "<group>"; };
+		7B3562B874422A26AE071A4DCBD6DB65 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7C62CB2753C482B7FE81CF140976460A /* CocoaMQTTFrame.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CocoaMQTTFrame.swift; path = Source/CocoaMQTTFrame.swift; sourceTree = "<group>"; };
+		7DA2F89940DA93634CBCB2627BAEAEA4 /* CocoaMQTT.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CocoaMQTT.modulemap; sourceTree = "<group>"; };
+		7F048D6FE7985748878225544F17E6CE /* QRCodeReader.swift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QRCodeReader.swift-umbrella.h"; sourceTree = "<group>"; };
+		896ADAD4ECA48CBE444B717A2005E1B8 /* SwitchCameraButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwitchCameraButton.swift; path = Sources/SwitchCameraButton.swift; sourceTree = "<group>"; };
+		8A5A4485388364EE20CFD67A55C510FC /* CocoaMQTT.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CocoaMQTT.h; path = Source/CocoaMQTT.h; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		94BE381B487EC6EA4885BFFCCAAC3428 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		9709366D6CF9C59F713216D994790C01 /* QRCodeReader.swift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = QRCodeReader.swift.modulemap; sourceTree = "<group>"; };
+		9735B392C7AB9D2BD24144CC42AA9953 /* CocoaAsyncSocket-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CocoaAsyncSocket-prefix.pch"; sourceTree = "<group>"; };
+		982610B46100D515C92269DFED3216D9 /* SwiftyTimer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftyTimer-dummy.m"; sourceTree = "<group>"; };
+		989182A3A49BB2D1D31078904DF69D4D /* SwiftyTimer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyTimer.swift; path = Sources/SwiftyTimer.swift; sourceTree = "<group>"; };
+		98EE2A6D742D32F68259A2B2139DCF90 /* Pods-WopinWifiTest-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WopinWifiTest-acknowledgements.plist"; sourceTree = "<group>"; };
+		9CE9491C7911ADE4AEBBDDC20D5E83CD /* GCDAsyncUdpSocket.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDAsyncUdpSocket.m; path = Source/GCD/GCDAsyncUdpSocket.m; sourceTree = "<group>"; };
+		A4AD07A575BC435863A27EACA1826DF3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A743B7B2058AD874C84AA2665CEE3456 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACFC033A559E71DE1FFFA46A04D46FB3 /* SwiftyTimer-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyTimer-prefix.pch"; sourceTree = "<group>"; };
+		AD384083B6D27112E6A83A095CBBCE59 /* CocoaAsyncSocket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CocoaAsyncSocket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE792F7FC7E9594D7A1CC6F5C34F9B6C /* GCDAsyncSocket.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDAsyncSocket.h; path = Source/GCD/GCDAsyncSocket.h; sourceTree = "<group>"; };
+		AEA0EA93630BD612F6DF55DD767566FC /* Pods-WopinWifiTest-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WopinWifiTest-dummy.m"; sourceTree = "<group>"; };
+		B40F954A7722403A52ADD2435AA911EA /* QRCodeReader.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = QRCodeReader.framework; path = QRCodeReader.swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B715EC1E2BA2A1A5DD1C4F616EC91EAC /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
+		BC5B98821972501636F978C0767C91B0 /* Pods-WopinWifiTest.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WopinWifiTest.modulemap"; sourceTree = "<group>"; };
+		C1453166CAC14771A35D205C4BB55CB5 /* SwiftyTimer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyTimer-umbrella.h"; sourceTree = "<group>"; };
+		C2F5F17CB8B7E8B9733A69D1395BD19D /* QRCodeReaderViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QRCodeReaderViewController.swift; path = Sources/QRCodeReaderViewController.swift; sourceTree = "<group>"; };
+		C9DD1C48CBF0360D4E1BB7783D9CE48D /* ReaderOverlayView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReaderOverlayView.swift; path = Sources/ReaderOverlayView.swift; sourceTree = "<group>"; };
+		CA413E58C7370197FE9D9A33A9B2DFE6 /* SwiftyTimer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftyTimer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB97D28E6104B1B3E1B0628D920F2919 /* SwiftyTimer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftyTimer.framework; path = SwiftyTimer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D059ED516E01FDDBA20F9AB1061C62C3 /* QRCodeReader.swift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QRCodeReader.swift.xcconfig; sourceTree = "<group>"; };
+		D5D225489ABFAB4948892EAA775BE7BF /* GCDAsyncUdpSocket.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDAsyncUdpSocket.h; path = Source/GCD/GCDAsyncUdpSocket.h; sourceTree = "<group>"; };
+		E427C39ADC4BDBB222DBEA7E2559DD72 /* ToggleTorchButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ToggleTorchButton.swift; path = Sources/ToggleTorchButton.swift; sourceTree = "<group>"; };
+		E748124B5CFF5330F09072182539C7B4 /* Pods-WopinWifiTest-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WopinWifiTest-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E8CE6A1F3C4D2AA2BEF84244EB87AB8F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDED646A56CAA1BC7E75201C3EFBC8A8 /* CocoaAsyncSocket-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CocoaAsyncSocket-dummy.m"; sourceTree = "<group>"; };
+		F43BA6BA1C4FE2C778E7151876D5DF70 /* CocoaMQTTMessage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CocoaMQTTMessage.swift; path = Source/CocoaMQTTMessage.swift; sourceTree = "<group>"; };
+		F9045A31A73B2CDE3C5515CD36C182CA /* CocoaMQTT.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CocoaMQTT.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0E1A52C4E49C8F43472A56A0B2D4A569 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D9993A485E991911C0A47153809CD6D /* AVFoundation.framework in Frameworks */,
+				08F37DD446256492166F6CFE464CA297 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42CC9091920374143E728D1352BFAF80 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99C449D316FDF195C1D3E5EA5FA25F27 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71A3EAA6797588403607C5ADB3C5AB5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8027C16A4F9925949E9607DB3ED1AAF2 /* CocoaAsyncSocket.framework in Frameworks */,
+				77DEDFF5D140B7D7BC6054B64ED23A43 /* Foundation.framework in Frameworks */,
+				47E3A1B541E8A07B82C413A6B5840CB6 /* SwiftyTimer.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D8DC203BA00CC74DB7506171760C2D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C61C5F4CE62D3CBBB8F50C6F8610E0F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1C2C126168B038B9B15BF2A4C96FDDC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D088C0E218A224AFA1A97A5495986F5E /* CFNetwork.framework in Frameworks */,
+				C94D640E58AE2D09AD4B03577FC2D240 /* Foundation.framework in Frameworks */,
+				7602D5F6A6BB8B5B12C78AD5A109B20E /* Security.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0048F0E329B71C72CCE489A2D7BD4350 /* QRCodeReader.swift */ = {
+			isa = PBXGroup;
+			children = (
+				60BEBA0A0FC83F894A2CEC55CB6439A8 /* QRCodeReader.swift */,
+				68F0213C047D00490EF66F290FBF9C33 /* QRCodeReaderResult.swift */,
+				4FCE9C80D47EEC2E6787E9B7FC5ED49E /* QRCodeReaderView.swift */,
+				0C3F6993A34DF1E3750E87A13016EAA7 /* QRCodeReaderViewContainer.swift */,
+				C2F5F17CB8B7E8B9733A69D1395BD19D /* QRCodeReaderViewController.swift */,
+				26721979D40A4A019D43FABEDD8F4B86 /* QRCodeReaderViewControllerBuilder.swift */,
+				220B3AFB9ED48E27CF7D08B1B329581A /* QRCodeReaderViewControllerDelegate.swift */,
+				C9DD1C48CBF0360D4E1BB7783D9CE48D /* ReaderOverlayView.swift */,
+				896ADAD4ECA48CBE444B717A2005E1B8 /* SwitchCameraButton.swift */,
+				E427C39ADC4BDBB222DBEA7E2559DD72 /* ToggleTorchButton.swift */,
+				A11CAC714E2A3D6AAF8B106712CCA81C /* Support Files */,
+			);
+			name = QRCodeReader.swift;
+			path = QRCodeReader.swift;
+			sourceTree = "<group>";
+		};
+		03DC58CC8CA6A1BD15D878E23B0C5DBE /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5D9D22902FA0F0F77C8B442ED034C863 /* AVFoundation.framework */,
+				651B687D6F54349E2DBA8D35C70B1192 /* CFNetwork.framework */,
+				94BE381B487EC6EA4885BFFCCAAC3428 /* Foundation.framework */,
+				B715EC1E2BA2A1A5DD1C4F616EC91EAC /* Security.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		04571B573025F543A8425647266C85BE /* Pods-WopinWifiTest */ = {
+			isa = PBXGroup;
+			children = (
+				A4AD07A575BC435863A27EACA1826DF3 /* Info.plist */,
+				BC5B98821972501636F978C0767C91B0 /* Pods-WopinWifiTest.modulemap */,
+				E748124B5CFF5330F09072182539C7B4 /* Pods-WopinWifiTest-acknowledgements.markdown */,
+				98EE2A6D742D32F68259A2B2139DCF90 /* Pods-WopinWifiTest-acknowledgements.plist */,
+				AEA0EA93630BD612F6DF55DD767566FC /* Pods-WopinWifiTest-dummy.m */,
+				60B6B4A753B411699262A07C244D0522 /* Pods-WopinWifiTest-frameworks.sh */,
+				4CA828AABF6BF6EF5540A0D67926FA26 /* Pods-WopinWifiTest-resources.sh */,
+				04EFB512247879E68F585A66137CC8D1 /* Pods-WopinWifiTest-umbrella.h */,
+				57022D74DF8801481A0944A0DDAC3CC3 /* Pods-WopinWifiTest.debug.xcconfig */,
+				3D3BE5B52F6F9E1DADC56B21CF83B971 /* Pods-WopinWifiTest.release.xcconfig */,
+			);
+			name = "Pods-WopinWifiTest";
+			path = "Target Support Files/Pods-WopinWifiTest";
+			sourceTree = "<group>";
+		};
+		0C2BBA538C7D42C9242C95FB7C05E443 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				04571B573025F543A8425647266C85BE /* Pods-WopinWifiTest */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		43E2050CB454F01A584DD74F8E318227 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B64E7B15AB13E5EF3E1EE9433815015D /* CocoaAsyncSocket */,
+				F63B10B92188713BF154D802CE0F522C /* CocoaMQTT */,
+				0048F0E329B71C72CCE489A2D7BD4350 /* QRCodeReader.swift */,
+				504FA4C1F31696B8152503AB53C170A0 /* SwiftyTimer */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		504FA4C1F31696B8152503AB53C170A0 /* SwiftyTimer */ = {
+			isa = PBXGroup;
+			children = (
+				989182A3A49BB2D1D31078904DF69D4D /* SwiftyTimer.swift */,
+				F86D0BBFD2F81E8D447B2E428035F6BC /* Support Files */,
+			);
+			name = SwiftyTimer;
+			path = SwiftyTimer;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				981540EB8B07C773C8402FE04C23E365 /* Frameworks */,
+				43E2050CB454F01A584DD74F8E318227 /* Pods */,
+				A3B2144DF5B6CBAFD157C404C296C75A /* Products */,
+				0C2BBA538C7D42C9242C95FB7C05E443 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		981540EB8B07C773C8402FE04C23E365 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AD384083B6D27112E6A83A095CBBCE59 /* CocoaAsyncSocket.framework */,
+				CA413E58C7370197FE9D9A33A9B2DFE6 /* SwiftyTimer.framework */,
+				03DC58CC8CA6A1BD15D878E23B0C5DBE /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A11CAC714E2A3D6AAF8B106712CCA81C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7381F8F3623F04057E7BC325551D775F /* Info.plist */,
+				9709366D6CF9C59F713216D994790C01 /* QRCodeReader.swift.modulemap */,
+				D059ED516E01FDDBA20F9AB1061C62C3 /* QRCodeReader.swift.xcconfig */,
+				2B67E838B832D382B15C28D22BA38DA0 /* QRCodeReader.swift-dummy.m */,
+				3DB6D91D30E4BBD80D0F3F3099163A45 /* QRCodeReader.swift-prefix.pch */,
+				7F048D6FE7985748878225544F17E6CE /* QRCodeReader.swift-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/QRCodeReader.swift";
+			sourceTree = "<group>";
+		};
+		A3B2144DF5B6CBAFD157C404C296C75A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1B3E0DC89707C382F6BD759F3B25ECD8 /* CocoaAsyncSocket.framework */,
+				15BF82C343B30690DCE57EAE0C024A8D /* CocoaMQTT.framework */,
+				7189994BEA7A0D9D4F6DF17F9AD0282D /* Pods_WopinWifiTest.framework */,
+				B40F954A7722403A52ADD2435AA911EA /* QRCodeReader.framework */,
+				CB97D28E6104B1B3E1B0628D920F2919 /* SwiftyTimer.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B64E7B15AB13E5EF3E1EE9433815015D /* CocoaAsyncSocket */ = {
+			isa = PBXGroup;
+			children = (
+				AE792F7FC7E9594D7A1CC6F5C34F9B6C /* GCDAsyncSocket.h */,
+				75581ED31476EEBC44E20F0C7F667DAA /* GCDAsyncSocket.m */,
+				D5D225489ABFAB4948892EAA775BE7BF /* GCDAsyncUdpSocket.h */,
+				9CE9491C7911ADE4AEBBDDC20D5E83CD /* GCDAsyncUdpSocket.m */,
+				F2C523121D02898CA2433E5764FA515D /* Support Files */,
+			);
+			name = CocoaAsyncSocket;
+			path = CocoaAsyncSocket;
+			sourceTree = "<group>";
+		};
+		CB861683E18C5E22D217A9743F416F04 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7DA2F89940DA93634CBCB2627BAEAEA4 /* CocoaMQTT.modulemap */,
+				F9045A31A73B2CDE3C5515CD36C182CA /* CocoaMQTT.xcconfig */,
+				6FE03ED96A1E249D2186B52D8D4037FA /* CocoaMQTT-dummy.m */,
+				34F489846722E65EB6DFBF2ABA8680C9 /* CocoaMQTT-prefix.pch */,
+				45490579C1B8A33D6A42981B4248F536 /* CocoaMQTT-umbrella.h */,
+				A743B7B2058AD874C84AA2665CEE3456 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/CocoaMQTT";
+			sourceTree = "<group>";
+		};
+		F2C523121D02898CA2433E5764FA515D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				456E14C1A0C4C6C77B2A29C4BEAF98BA /* CocoaAsyncSocket.modulemap */,
+				4553D99E2D2E3B66099D96022B4ABB79 /* CocoaAsyncSocket.xcconfig */,
+				EDED646A56CAA1BC7E75201C3EFBC8A8 /* CocoaAsyncSocket-dummy.m */,
+				9735B392C7AB9D2BD24144CC42AA9953 /* CocoaAsyncSocket-prefix.pch */,
+				5809218A8F3629E63302552854B799F3 /* CocoaAsyncSocket-umbrella.h */,
+				E8CE6A1F3C4D2AA2BEF84244EB87AB8F /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/CocoaAsyncSocket";
+			sourceTree = "<group>";
+		};
+		F63B10B92188713BF154D802CE0F522C /* CocoaMQTT */ = {
+			isa = PBXGroup;
+			children = (
+				8A5A4485388364EE20CFD67A55C510FC /* CocoaMQTT.h */,
+				345E18372AFD94CCA604155A35F98F39 /* CocoaMQTT.swift */,
+				7C62CB2753C482B7FE81CF140976460A /* CocoaMQTTFrame.swift */,
+				F43BA6BA1C4FE2C778E7151876D5DF70 /* CocoaMQTTMessage.swift */,
+				CB861683E18C5E22D217A9743F416F04 /* Support Files */,
+			);
+			name = CocoaMQTT;
+			path = CocoaMQTT;
+			sourceTree = "<group>";
+		};
+		F86D0BBFD2F81E8D447B2E428035F6BC /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7B3562B874422A26AE071A4DCBD6DB65 /* Info.plist */,
+				132A4D212A3498F50F2532DEB03E15D8 /* SwiftyTimer.modulemap */,
+				1C8DBC290DF8A0AE3FB6D1ED04396E33 /* SwiftyTimer.xcconfig */,
+				982610B46100D515C92269DFED3216D9 /* SwiftyTimer-dummy.m */,
+				ACFC033A559E71DE1FFFA46A04D46FB3 /* SwiftyTimer-prefix.pch */,
+				C1453166CAC14771A35D205C4BB55CB5 /* SwiftyTimer-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftyTimer";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		066131069354C4CC132CAB645145E8F7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4230DB0D114C94B081018C1AC1E9972 /* CocoaAsyncSocket-umbrella.h in Headers */,
+				A882891E5A89CADF96C2CA79606409CA /* GCDAsyncSocket.h in Headers */,
+				AC7DC2A21843CD99040DCD79FF3BE91B /* GCDAsyncUdpSocket.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42823D231C8E4C37295BE21A5C5B95ED /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9A1FFCD0FFEE6E0C5B6AEF3F53479AA /* SwiftyTimer-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9097B1E8DF8D0FAD401663407C8C8930 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34E4A8322640782EF2D10CDC75305D52 /* CocoaMQTT-umbrella.h in Headers */,
+				B0CFA46CD4AE92F222313BD0946CBBA8 /* CocoaMQTT.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B285075A6E873CE5AA439E2E7EC99661 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F802BD4BD500338F98622FAFDA94C61F /* Pods-WopinWifiTest-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF350567F0C0476CC36F1F8FD4A84E0F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EC035DECB1322AD89F23F536DED85FA /* QRCodeReader.swift-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2C0A34821E08EC751DD5A58C4EBC10A8 /* QRCodeReader.swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 603FA891580E9CEE3F954C8B1FFE5271 /* Build configuration list for PBXNativeTarget "QRCodeReader.swift" */;
+			buildPhases = (
+				449CAD57B69B170935A7B5806B32A47D /* Sources */,
+				0E1A52C4E49C8F43472A56A0B2D4A569 /* Frameworks */,
+				CF350567F0C0476CC36F1F8FD4A84E0F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QRCodeReader.swift;
+			productName = QRCodeReader.swift;
+			productReference = B40F954A7722403A52ADD2435AA911EA /* QRCodeReader.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		3C2BD961D08D9D5BA067E3D53FDA8B5D /* Pods-WopinWifiTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0B63D0526580B712BA7713EA99BBB182 /* Build configuration list for PBXNativeTarget "Pods-WopinWifiTest" */;
+			buildPhases = (
+				07E150C5DA0F1AC56DBDF095E50A3F8B /* Sources */,
+				42CC9091920374143E728D1352BFAF80 /* Frameworks */,
+				B285075A6E873CE5AA439E2E7EC99661 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				64F231F74B98E8E709840DEC0ACFE6C5 /* PBXTargetDependency */,
+				EABA1D00BF990BDE56EFBC54E4A731B0 /* PBXTargetDependency */,
+				D3AAC880BD863E4D87BBFFE94658C10F /* PBXTargetDependency */,
+				01D3008B1C8ECAC45CFA322A70CF1016 /* PBXTargetDependency */,
+			);
+			name = "Pods-WopinWifiTest";
+			productName = "Pods-WopinWifiTest";
+			productReference = 7189994BEA7A0D9D4F6DF17F9AD0282D /* Pods_WopinWifiTest.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		AC0D2D2B4EE7C873431AB3502859CA60 /* CocoaAsyncSocket */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2A03B912F777B2BFB05E7B9E903B15F /* Build configuration list for PBXNativeTarget "CocoaAsyncSocket" */;
+			buildPhases = (
+				FD452A203117FF8DFA26B0711D439093 /* Sources */,
+				D1C2C126168B038B9B15BF2A4C96FDDC /* Frameworks */,
+				066131069354C4CC132CAB645145E8F7 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CocoaAsyncSocket;
+			productName = CocoaAsyncSocket;
+			productReference = 1B3E0DC89707C382F6BD759F3B25ECD8 /* CocoaAsyncSocket.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DD756C696AE4837726B4CBFA1D299F2D /* SwiftyTimer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83B4D787D19FB8C2042E922DA30D4CD8 /* Build configuration list for PBXNativeTarget "SwiftyTimer" */;
+			buildPhases = (
+				04A779345F0D6F0B23002BD5478BF54B /* Sources */,
+				9D8DC203BA00CC74DB7506171760C2D9 /* Frameworks */,
+				42823D231C8E4C37295BE21A5C5B95ED /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftyTimer;
+			productName = SwiftyTimer;
+			productReference = CB97D28E6104B1B3E1B0628D920F2919 /* SwiftyTimer.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E720309E6F5A1C69F6C3B3230A0C7B1D /* CocoaMQTT */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B90A11AB85CADC6E0FD449DB3F5238C /* Build configuration list for PBXNativeTarget "CocoaMQTT" */;
+			buildPhases = (
+				7DDC8DFE0E8DEB51FDA1517737BC9779 /* Sources */,
+				71A3EAA6797588403607C5ADB3C5AB5E /* Frameworks */,
+				9097B1E8DF8D0FAD401663407C8C8930 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0E041424DE12DA31C1A1DFD83A3D324E /* PBXTargetDependency */,
+				94C59CFC4E19C56DFB57001A96F872D0 /* PBXTargetDependency */,
+			);
+			name = CocoaMQTT;
+			productName = CocoaMQTT;
+			productReference = 15BF82C343B30690DCE57EAE0C024A8D /* CocoaMQTT.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = A3B2144DF5B6CBAFD157C404C296C75A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AC0D2D2B4EE7C873431AB3502859CA60 /* CocoaAsyncSocket */,
+				E720309E6F5A1C69F6C3B3230A0C7B1D /* CocoaMQTT */,
+				3C2BD961D08D9D5BA067E3D53FDA8B5D /* Pods-WopinWifiTest */,
+				2C0A34821E08EC751DD5A58C4EBC10A8 /* QRCodeReader.swift */,
+				DD756C696AE4837726B4CBFA1D299F2D /* SwiftyTimer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04A779345F0D6F0B23002BD5478BF54B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED8DA0C8A611B80C357C3660C47EBB95 /* SwiftyTimer-dummy.m in Sources */,
+				16DC6826306FE919355D4004243F9993 /* SwiftyTimer.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07E150C5DA0F1AC56DBDF095E50A3F8B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B315C716597E5D19728AB6926F7BBE51 /* Pods-WopinWifiTest-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		449CAD57B69B170935A7B5806B32A47D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60544D67483EFB0F7C8D72E42DA60B0F /* QRCodeReader.swift in Sources */,
+				CC0C10D188403404F56968BD1DDAAF98 /* QRCodeReader.swift-dummy.m in Sources */,
+				ED75FD1F53BA23D6B529AC39E57127C7 /* QRCodeReaderResult.swift in Sources */,
+				494C00019BB89ADA7A42765CB2118F73 /* QRCodeReaderView.swift in Sources */,
+				4707A4453045B0E3B75485B9E8218A38 /* QRCodeReaderViewContainer.swift in Sources */,
+				263AAF6830E621852D8362FD1BA7CEA6 /* QRCodeReaderViewController.swift in Sources */,
+				43A8F1EAE123AA72148693C7516E27D8 /* QRCodeReaderViewControllerBuilder.swift in Sources */,
+				4924E2BE29AD8CB7139664FF22D4C0AC /* QRCodeReaderViewControllerDelegate.swift in Sources */,
+				E7EA5194BD090B497846CFF15A972C2E /* ReaderOverlayView.swift in Sources */,
+				7A55EE7F96CEDF347D913ECE94F65329 /* SwitchCameraButton.swift in Sources */,
+				7AFFF9FE86FFB55051B35B4D05C96DAC /* ToggleTorchButton.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7DDC8DFE0E8DEB51FDA1517737BC9779 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E637F8CE61E0F9B8676457258E96A60D /* CocoaMQTT-dummy.m in Sources */,
+				943BF07A10E71980CAC8DE757D03B2F4 /* CocoaMQTT.swift in Sources */,
+				3F104C185043C731D38BD3838470B489 /* CocoaMQTTFrame.swift in Sources */,
+				2991D1E6D4AF8123D6772795D1416A01 /* CocoaMQTTMessage.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD452A203117FF8DFA26B0711D439093 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E4F0161B4D135DA3A0763619A56C2F5 /* CocoaAsyncSocket-dummy.m in Sources */,
+				8480493AEC1C7AF1B5C0E0BF2F70FB44 /* GCDAsyncSocket.m in Sources */,
+				AEE9644DA0EFCF945438E125BA4F0724 /* GCDAsyncUdpSocket.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		01D3008B1C8ECAC45CFA322A70CF1016 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftyTimer;
+			target = DD756C696AE4837726B4CBFA1D299F2D /* SwiftyTimer */;
+			targetProxy = 84729F958F3F9957F9407AD6F92DB223 /* PBXContainerItemProxy */;
+		};
+		0E041424DE12DA31C1A1DFD83A3D324E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CocoaAsyncSocket;
+			target = AC0D2D2B4EE7C873431AB3502859CA60 /* CocoaAsyncSocket */;
+			targetProxy = 8A6F2ED52F8549A40BAE2D7A2EFE07F5 /* PBXContainerItemProxy */;
+		};
+		64F231F74B98E8E709840DEC0ACFE6C5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CocoaAsyncSocket;
+			target = AC0D2D2B4EE7C873431AB3502859CA60 /* CocoaAsyncSocket */;
+			targetProxy = 550C297AB676F1272DD1BB1C5178F2BD /* PBXContainerItemProxy */;
+		};
+		94C59CFC4E19C56DFB57001A96F872D0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftyTimer;
+			target = DD756C696AE4837726B4CBFA1D299F2D /* SwiftyTimer */;
+			targetProxy = 65396324C5F570704BFA2161AD13D20C /* PBXContainerItemProxy */;
+		};
+		D3AAC880BD863E4D87BBFFE94658C10F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = QRCodeReader.swift;
+			target = 2C0A34821E08EC751DD5A58C4EBC10A8 /* QRCodeReader.swift */;
+			targetProxy = 91069B7FAE5AEA138782D659BB78B29B /* PBXContainerItemProxy */;
+		};
+		EABA1D00BF990BDE56EFBC54E4A731B0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CocoaMQTT;
+			target = E720309E6F5A1C69F6C3B3230A0C7B1D /* CocoaMQTT */;
+			targetProxy = D3DE4DA42A95324C9F6C58E81DD66A2D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		16005781C5ABAE563114CA785FCC0D92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9045A31A73B2CDE3C5515CD36C182CA /* CocoaMQTT.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CocoaMQTT/CocoaMQTT-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CocoaMQTT/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/CocoaMQTT/CocoaMQTT.modulemap";
+				PRODUCT_MODULE_NAME = CocoaMQTT;
+				PRODUCT_NAME = CocoaMQTT;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1EE19F5DD95931924296F637BF18BD8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		20731A006C0B3506DE58F8315C82B322 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D059ED516E01FDDBA20F9AB1061C62C3 /* QRCodeReader.swift.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/QRCodeReader.swift/QRCodeReader.swift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/QRCodeReader.swift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/QRCodeReader.swift/QRCodeReader.swift.modulemap";
+				PRODUCT_MODULE_NAME = QRCodeReader;
+				PRODUCT_NAME = QRCodeReader;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		56DFF5E58CB032143D4F0F5F02F35D27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C8DBC290DF8A0AE3FB6D1ED04396E33 /* SwiftyTimer.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyTimer/SwiftyTimer-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyTimer/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SwiftyTimer/SwiftyTimer.modulemap";
+				PRODUCT_MODULE_NAME = SwiftyTimer;
+				PRODUCT_NAME = SwiftyTimer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6EFA63D86FADFDEFAF85134094BB5D32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D059ED516E01FDDBA20F9AB1061C62C3 /* QRCodeReader.swift.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/QRCodeReader.swift/QRCodeReader.swift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/QRCodeReader.swift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/QRCodeReader.swift/QRCodeReader.swift.modulemap";
+				PRODUCT_MODULE_NAME = QRCodeReader;
+				PRODUCT_NAME = QRCodeReader;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7617C675E680645FE9100D6ED19664E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4553D99E2D2E3B66099D96022B4ABB79 /* CocoaAsyncSocket.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CocoaAsyncSocket/CocoaAsyncSocket-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CocoaAsyncSocket/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/CocoaAsyncSocket/CocoaAsyncSocket.modulemap";
+				PRODUCT_MODULE_NAME = CocoaAsyncSocket;
+				PRODUCT_NAME = CocoaAsyncSocket;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BD73F47066404DE411C1662BAB08DDBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D3BE5B52F6F9E1DADC56B21CF83B971 /* Pods-WopinWifiTest.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WopinWifiTest/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WopinWifiTest/Pods-WopinWifiTest.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D57E89EB0CA827E7478AFBF930E34C14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9045A31A73B2CDE3C5515CD36C182CA /* CocoaMQTT.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CocoaMQTT/CocoaMQTT-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CocoaMQTT/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/CocoaMQTT/CocoaMQTT.modulemap";
+				PRODUCT_MODULE_NAME = CocoaMQTT;
+				PRODUCT_NAME = CocoaMQTT;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DEAE7590FAD5B82D10F9C8A94E8200C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 57022D74DF8801481A0944A0DDAC3CC3 /* Pods-WopinWifiTest.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WopinWifiTest/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WopinWifiTest/Pods-WopinWifiTest.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		EDBB8A444E15ACA7CBC1A3BA244B3FFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4553D99E2D2E3B66099D96022B4ABB79 /* CocoaAsyncSocket.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CocoaAsyncSocket/CocoaAsyncSocket-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CocoaAsyncSocket/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/CocoaAsyncSocket/CocoaAsyncSocket.modulemap";
+				PRODUCT_MODULE_NAME = CocoaAsyncSocket;
+				PRODUCT_NAME = CocoaAsyncSocket;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F2882F25D4DF6BE5C4910844B4E3E206 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C8DBC290DF8A0AE3FB6D1ED04396E33 /* SwiftyTimer.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyTimer/SwiftyTimer-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyTimer/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SwiftyTimer/SwiftyTimer.modulemap";
+				PRODUCT_MODULE_NAME = SwiftyTimer;
+				PRODUCT_NAME = SwiftyTimer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F4568DEE257655D290C2B9CEAB37C934 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0B63D0526580B712BA7713EA99BBB182 /* Build configuration list for PBXNativeTarget "Pods-WopinWifiTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEAE7590FAD5B82D10F9C8A94E8200C3 /* Debug */,
+				BD73F47066404DE411C1662BAB08DDBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EE19F5DD95931924296F637BF18BD8F /* Debug */,
+				F4568DEE257655D290C2B9CEAB37C934 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		603FA891580E9CEE3F954C8B1FFE5271 /* Build configuration list for PBXNativeTarget "QRCodeReader.swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20731A006C0B3506DE58F8315C82B322 /* Debug */,
+				6EFA63D86FADFDEFAF85134094BB5D32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83B4D787D19FB8C2042E922DA30D4CD8 /* Build configuration list for PBXNativeTarget "SwiftyTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56DFF5E58CB032143D4F0F5F02F35D27 /* Debug */,
+				F2882F25D4DF6BE5C4910844B4E3E206 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B90A11AB85CADC6E0FD449DB3F5238C /* Build configuration list for PBXNativeTarget "CocoaMQTT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D57E89EB0CA827E7478AFBF930E34C14 /* Debug */,
+				16005781C5ABAE563114CA785FCC0D92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F2A03B912F777B2BFB05E7B9E903B15F /* Build configuration list for PBXNativeTarget "CocoaAsyncSocket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7617C675E680645FE9100D6ED19664E7 /* Debug */,
+				EDBB8A444E15ACA7CBC1A3BA244B3FFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

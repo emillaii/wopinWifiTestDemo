@@ -1,0 +1,28 @@
+PODS:
+  - CocoaAsyncSocket (7.6.3)
+  - CocoaMQTT (1.1.2):
+    - CocoaAsyncSocket (~> 7.6.1)
+    - SwiftyTimer (~> 2.0.0)
+  - QRCodeReader.swift (8.2.0)
+  - SwiftyTimer (2.0.0)
+
+DEPENDENCIES:
+  - CocoaMQTT
+  - QRCodeReader.swift (~> 8.2.0)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - CocoaAsyncSocket
+    - CocoaMQTT
+    - QRCodeReader.swift
+    - SwiftyTimer
+
+SPEC CHECKSUMS:
+  CocoaAsyncSocket: eafaa68a7e0ec99ead0a7b35015e0bf25d2c8987
+  CocoaMQTT: d33ab3cd4e329f9f1cfbb62e25306a318a606616
+  QRCodeReader.swift: 003eb32f18a5a675b936ec82ba0ff368cddbff45
+  SwiftyTimer: 2efd74b060d69ad4f1496baf5bbedbe132125fcf
+
+PODFILE CHECKSUM: 1d1ef138192e6b569c5dce6f34e3c787c8067c64
+
+COCOAPODS: 1.5.3
